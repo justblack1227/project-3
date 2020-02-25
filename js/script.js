@@ -1,4 +1,6 @@
 // Techdegree Project 3 - Interactive Form
+// By Justin Black
+// Going for exceeds expectations but will accept meets expectations
 
 
 const loadFocus = document.getElementById("name");
