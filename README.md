@@ -1,4 +1,4 @@
-#Project 3
+#Interactive Form
 
 With this project, a static form will be transformed into an interactive one. 
 
