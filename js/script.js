@@ -1,6 +1,5 @@
-// Techdegree Project 3 - Interactive Form
+// Interactive Form
 // By Justin Black
-// Going for exceeds expectations but will accept meets expectations
 
 
 const loadFocus = document.getElementById("name");
@@ -41,7 +40,7 @@ function hideColorOptions() {
 }
 
 
-//This hides the Color select  <========= EXTRA CREDIT #1 =======> 
+//This hides the Color select  
 function hideColorSelect() {
   const hideTheme = document.getElementById("design").value;
   
@@ -148,14 +147,14 @@ function printErrorMessage(func, id, num, str, idElement,arr) {
 }
 
 
-// This function checks for errors in realtime <=========== EXTRA CREDIT #3 ===========>
+// This function checks for errors in realtime
 function realTime(func1, func2) {
     if (func1 == false) { func1 } 
     else { func2 }
 }
 
 
-// This listner checks errors for name input in real time <=========== EXTRA CREDIT #3 ===========>
+// This listner checks errors for name input in real time 
 nameInput.addEventListener("input", () => {
       let arry = [];
       realTime(
@@ -164,7 +163,7 @@ nameInput.addEventListener("input", () => {
 });
 
 
-// This listner checks errors for email input in real time <=========== EXTRA CREDIT #3 ===========>
+// This listner checks errors for email input in real time 
 emailInput.addEventListener("input", () => {
       let arry = [];
       realTime(
@@ -285,7 +284,7 @@ btn.addEventListener("click", (e) => {
   const formSubmitted = [];
 
   /* Name Input Error message
-  This conditional displays two different messages    <=========EXTRA CREDIT #2 ===========> 
+  This conditional displays two different messages    
   depending on if name input is empty*/
   if (nameInput.value == "") {
     printErrorMessage(isFieldValid(nameInput.value, false, false), "nameMessage", 0, "Name must be entered", "name", formSubmitted); 
